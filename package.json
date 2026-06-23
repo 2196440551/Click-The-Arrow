@@ -1,0 +1,19 @@
+{
+  "name": "click-the-arrow",
+  "version": "1.0.0",
+  "description": "A desktop 2D directed line elimination puzzle game built with Electron, electron-vite and PixiJS.",
+  "main": "out/main/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.1",
+    "electron": "^31.7.7",
+    "electron-vite": "^2.3.0",
+    "pixi.js": "^8.5.2"
+  },
+  "devDependencies": {}
+}
