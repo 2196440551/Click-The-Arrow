@@ -1,0 +1,9 @@
+# 忽略 node_modules 目录
+node_modules/
+**/node_modules/
+
+# 也可以忽略其他常见目录
+dist/
+build/
+.env
+*.lognode_modules/
